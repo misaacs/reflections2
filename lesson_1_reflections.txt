@@ -1,0 +1,27 @@
+After writing text, be it for an essay or a computer program, there’s a tendency to not see it anymore with fresh eyes, a bias towards skimming and not really “seeing” the details.
+
+This tendency makes it quite difficult to spot any minor errors. The brain is working on auto-complete mode, assuming that “most” of the text is fine, an assumption that’s actually true for most of the text but which means that for those minor but crucial errors are generally overlooked.
+
+An automated system that actually examines differences, character by character does not skim over differences but pulls them out every time, ideally marks them graphically and there it is in front of us, in back and white.
+
+This method greatly speeds up development time by shrinking the debug phase of a software development cycle.
+
+Using History for Efficiency:
+History with reversible states allows one to attempt large-scale changes without worrying about going out on a limb. ie it's possible to go back and check and compare with old states and know what changes are made and infer where problems or may be in code.
+
+Manual Commits:
+Allows for saving at logical points that make sense rather than automatic points which may not. Automatic commits do help absent minded savers get something saved.
+
+Multifile Commits:
+Git has this feature since it's meant to support software development- which generally involves changes in multiple files in parallel, whether it be with html-css-js or package development with classes strewn across many files.
+
+How can you use the commands git log and git diff to view the history of files?
+"git log" allows one to survey the whole history of commits with the unique commit ids, associated time-date, files involved.
+"git log --stat" gives more details like lines added/subtracted and the number of files involved
+"git diff" is used to pick out differences between any pair of these commits.
+
+How might using version control make you more confident to make changes that could break something?
+If you make changes to a program trying out new features or improvements and they don't work out, you could go back to a previous commit.
+
+How Do You Want to Use Git?
+To develop iOS Apps. 
